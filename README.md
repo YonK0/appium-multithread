@@ -7,4 +7,5 @@ the script will autoamtically adb connect to the opened bluestacks instances and
 installation you may need : 
 -install uiautomator-
 appium driver install uiautomator2@2.0.1
+pip install Appium-Python-Client
 
