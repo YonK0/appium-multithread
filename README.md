@@ -23,7 +23,7 @@ Set up Appium with bluestack ( or any others simulators ) and python :
 Optional : 
     -if you want restart appium server before runnig new script and close the old onces : "taskkill /F /IM node.exe"
 
-# appium-multithread
+# Appium multithread
 in this example i worked with spotify apk , i may upload another complex scripts in the future.
 
 NB : make sure you opened how much Bluestacks(in my case) instances.
