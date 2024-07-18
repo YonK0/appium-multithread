@@ -9,11 +9,13 @@ Set up Appium with bluestack ( or any others simulators ) and python :
 
 2. preinstallation for the envirenment : 
   - install android sdk using android studio 
-  - install java jdk 
+  - install java jdk
+    
 3. set windows envirenment (or linux ) : 
-  - add ANDROID_HOME (system and local if that possible) : "C:\Users\Yonk0\AppData\Local\Android\Sdk\"
-  - add JAVA_HOME (system variable) : "C:\Program Files\Java\jdk-22\"
-  - add platform tools (like adb) in Path ( predifined variable in local ) : "C:\Users\ASUS\AppData\Local\Android\Sdk\platform-tools"
+  - 
+  - add JAVA_HOME (system variable) : "C:\Program Files\Java\jdk-22\" (ps : linux don't need)
+  - Download cmd tools
+
 
 4. install Appium : 
     - install appium gui or run it using terminal to start your server 
@@ -31,5 +33,21 @@ the script will automatically adb connect to the opened bluestacks instances and
 
 I hope this can be helpfull , i know sometimes videos can show better details , i may record a video that cover all the steps together if it necessary . 
 Thanks for reading this first Article !
+
+# after downloading android sdk cmd tools
+```bash
+  - 
+    -mkdir -p ~/android-sdk/cmdline-tools
+    export ANDROID_HOME=~/android-sdk
+    export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+    export PATH=$PATH:$ANDROID_HOME/platform-tools
+    
+    
+    cd ~/android-sdk/cmdline-tools/latest/bin
+    ./sdkmanager --sdk_root=$ANDROID_HOME --update
+    ./sdkmanager --sdk_root=$ANDROID_HOME "build-tools;31.0.0"
+    
+    #check apksigner 
+    find $ANDROID_HOME -name "apksigner.jar"
 
 
