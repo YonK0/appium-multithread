@@ -1,3 +1,14 @@
+# Appium multithread
+in this example i worked with spotify apk , i may upload another complex scripts in the future.
+
+NB : make sure you opened how much Bluestacks(in my case) instances.
+the script will automatically adb connect to the opened bluestacks instances and automatically start appium session to different ports  
+
+I hope this can be helpfull , i know sometimes videos can show better details , i may record a video that cover all the steps together if it necessary . 
+Thanks for reading this first Article !
+
+
+
 # Set up appium with Simulator
 
 Set up Appium with bluestack ( or any others simulators ) and python : 
@@ -25,16 +36,9 @@ Set up Appium with bluestack ( or any others simulators ) and python :
 Optional : 
    - if you want restart appium server before runnig new script and close the old onces : "taskkill /F /IM node.exe"
 
-# Appium multithread
-in this example i worked with spotify apk , i may upload another complex scripts in the future.
+# For linux you need this steps : 
 
-NB : make sure you opened how much Bluestacks(in my case) instances.
-the script will automatically adb connect to the opened bluestacks instances and automatically start appium session to different ports  
-
-I hope this can be helpfull , i know sometimes videos can show better details , i may record a video that cover all the steps together if it necessary . 
-Thanks for reading this first Article !
-
-# after downloading android sdk cmd tools
+after downloading android sdk cmd tools. 
 ```bash
   - 
     -mkdir -p ~/android-sdk/cmdline-tools
