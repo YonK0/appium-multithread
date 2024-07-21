@@ -1,12 +1,3 @@
-# Appium multithread
-in this example i worked with spotify apk , i may upload another complex scripts in the future.
-
-NB : make sure you opened how much Bluestacks(in my case) instances.
-the script will automatically adb connect to the opened bluestacks instances and automatically start appium session to different ports  
-
-I hope this can be helpfull , i know sometimes videos can show better details , i may record a video that cover all the steps together if it necessary . 
-Thanks for reading this first Article !
-
 
 
 # Set up appium with Simulator
