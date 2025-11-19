@@ -5,17 +5,17 @@
 Set up Appium with bluestack ( or any others simulators ) and python : 
 
 1. python set up : 
-  - pip install appium packages
-  - appium driver install uiautomator2@2.0.1
-  - pip install Appium-Python-Client
+    - pip install appium packages
+    - appium driver install uiautomator2@2.0.1
+    - pip install Appium-Python-Client
 
 2. preinstallation for the envirenment : 
-  - install android sdk using android studio 
-  - install java jdk
+    - install android sdk using android studio 
+    - install java jdk
     
 3. set windows envirenment (or linux) : 
-  - add JAVA_HOME (system variable) : "C:\Program Files\Java\jdk-22\" (ps : linux don't need)
-  - Download cmd tools
+    - add JAVA_HOME (system variable) : "C:\Program Files\Java\jdk-22\" (ps : linux don't need)
+    - Download cmd tools
 
 
 4. install Appium : 
