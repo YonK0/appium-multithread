@@ -13,8 +13,7 @@ Set up Appium with bluestack ( or any others simulators ) and python :
   - install android sdk using android studio 
   - install java jdk
     
-3. set windows envirenment (or linux ) : 
-  - 
+3. set windows envirenment (or linux) : 
   - add JAVA_HOME (system variable) : "C:\Program Files\Java\jdk-22\" (ps : linux don't need)
   - Download cmd tools
 
@@ -27,7 +26,7 @@ Set up Appium with bluestack ( or any others simulators ) and python :
 Optional : 
    - if you want restart appium server before runnig new script and close the old onces : "taskkill /F /IM node.exe"
 
-# For linux you need this steps : 
+# For linux you need these steps : 
 
 after downloading android sdk cmd tools. 
 ```bash
